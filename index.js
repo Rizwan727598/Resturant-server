@@ -196,7 +196,7 @@ run().catch(console.dir);
 
 // Base Route
 app.get("/", (req, res) => {
-  res.send(" API is running...");
+  res.send("Foods API is running...");
 });
 
 // Start Server
