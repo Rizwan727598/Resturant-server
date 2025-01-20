@@ -196,10 +196,13 @@ run().catch(console.dir);
 
 // Base Route
 app.get("/", (req, res) => {
-  res.send("EquiSports API is running...");
+  res.send(" API is running...");
 });
 
 // Start Server
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+});
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
