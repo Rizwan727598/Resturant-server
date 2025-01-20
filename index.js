@@ -198,9 +198,6 @@ run().catch(console.dir);
 app.get("/", (req, res) => {
   res.send(" API is running...");
 });
-app.get("/", (req, res) => {
-  res.send(" API is running...");
-});
 
 // Start Server
 app.listen(port, () => {
